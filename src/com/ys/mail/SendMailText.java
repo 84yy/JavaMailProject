@@ -19,7 +19,7 @@ public class SendMailText {
 	//发件人账户名
 	public static String senderAccount = "gp_test_02";
 	//发件人账户密码
-	public static String senderPassword = "qaz321";
+	public static String senderPassword = "替换成验证密码";
 	
 	public static void main(String[] args) throws Exception {
 		//1、连接邮件服务器的参数配置

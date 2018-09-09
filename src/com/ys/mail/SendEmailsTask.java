@@ -31,7 +31,7 @@ public class SendEmailsTask implements Runnable {
     //发件人账户名
     public static String senderAccount = "gp_test_01";
     //发件人账户密码
-    public static String senderPassword = "qaz321";
+    public static String senderPassword = "替换成验证密码";
 
     List<String> senderList;
 

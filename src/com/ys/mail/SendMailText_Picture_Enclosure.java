@@ -24,7 +24,7 @@ public class SendMailText_Picture_Enclosure {
 	//发件人账户名
 	public static String senderAccount = "gp_test_02";
 	//发件人账户密码
-	public static String senderPassword = "qaz321";
+	public static String senderPassword = "替换成验证密码";
 	
 	public static void main(String[] args) throws Exception {
 		//1、连接邮件服务器的参数配置
@@ -47,7 +47,7 @@ public class SendMailText_Picture_Enclosure {
 		transport.connect(senderAccount, senderPassword);
 		//发送邮件，并发送到所有收件人地址，message.getAllRecipients() 获取到的是在创建邮件对象时添加的所有收件人, 抄送人, 密送人
 		transport.sendMessage(msg,msg.getAllRecipients());
-		
+
 		//5、关闭邮件连接
 		transport.close();
 	}
